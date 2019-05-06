@@ -1,0 +1,22 @@
+# Transforma o repositório atual em um repositório git
+git init
+
+# retorna  se existe algum arquivo ainda não rastreado  ou ainda não gravado no git
+git status
+
+# Adiciona um arquivo para rastreamento ou inclui ele novamente para rastreamento
+git add NomeDoArquivo
+
+# Grava as alterações realizadas no repositório atual com uma mensagem
+git commit -m "Comentário"
+
+# Verifica  o status das alterações na pasta atual
+git log
+
+# Envia os arquivos do repositório atual para o repositório no git
+git remote add origin https://github.com/UsuarioGitHub/RepositorioGit.git
+
+# Enviando as alterações para o respositório externo
+git push origin master
+
+
