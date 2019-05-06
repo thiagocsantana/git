@@ -19,4 +19,6 @@ git remote add origin https://github.com/UsuarioGitHub/RepositorioGit.git
 # Enviando as alterações para o respositório externo
 git push origin master
 
+# Copia um projeto do git
+git clone LinkDoProjeto
 
